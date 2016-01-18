@@ -1,0 +1,23 @@
+div.TradeTile {
+  width: 230px;
+  height: 200px;
+  background-color: #B9B5B5;
+}
+
+div.TradeTile input {
+   width: 100px;
+   height: 24px;
+}
+
+h2.title {
+	padding-left: 15px;
+}
+
+div.tradeDeets {
+	padding-left: 15px;
+}
+
+div.tradeButtons {
+	padding: 5px;
+}
+
