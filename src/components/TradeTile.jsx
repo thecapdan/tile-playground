@@ -24,7 +24,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div className="TradeTile">
-          <h2 className="title">Trade Tile</h2>
+          <h2 className="title">Trade Tile {this.props.id + 1}</h2>
           <div className="tradeDeets">
             Currency: <CurrencySelector options={this.state.currencies} handleChange={this.updateCurrency}/><br/>
             Amount: <input type="text" onChange={this.updateAmmount}/>
