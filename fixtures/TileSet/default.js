@@ -1,3 +1,5 @@
 module.exports = {
-	count : 3
+  "state": {
+    "count": 1
+  }
 };
